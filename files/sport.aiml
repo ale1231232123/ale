@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>hi</pattern>
+	    <template>Hello, are you boring?</template>
+    </category>
+	
+	<category>
+	    <that>Hello, are you bored</that>
+	    <pattern># yes #</pattern>
+	    <template>Oh no. I'm here to help you 😊
+	    You could do lot of things. Do you like
+	    <random>
+	        <li> sports?</li>
+	        <li> watching films?</li>
+	        
+	    </random>
+	    </template>
+    </category>
+    
+     <category>
+      <that>Oh no. I'm here to help you 😊
+	    You could do lot of things. Do you like </that>
+      <pattern># no #</pattern>
+      <template>
+          Aw that's a shame. I unfortunately don't have a body to do these things 😢
+      </template>
+  </category>
+    
+    <category>
+        <that>Do you like sports</that>
+        <pattern># yes #</pattern>
+        <template>What is your favourite sports?</template>
+    </category>
+	
+	<category>
+	    <that>What is your favourite sports</that>
+	    <pattern>??????????????????</pattern>
+	    <template>Oh cool. you can click here
+	    </template>
+    </category>
+	
+</aiml>
